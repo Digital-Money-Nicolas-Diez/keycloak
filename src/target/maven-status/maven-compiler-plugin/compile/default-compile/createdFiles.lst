@@ -1,0 +1,7 @@
+org\messages\onRegister.class
+org\messages\MessageStrategy.class
+org\acme\provider\KeycloakEventListener.class
+org\messages\Context.class
+org\rabbitmq\RabbitPublisher.class
+org\messages\MessagesContext.class
+org\acme\provider\KeycloakEventListenerFactory.class
