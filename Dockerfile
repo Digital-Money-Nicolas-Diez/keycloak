@@ -4,5 +4,6 @@ RUN /opt/keycloak/bin/kc.sh build
 
 FROM quay.io/keycloak/keycloak:26.4.7
 COPY --from=builder /opt/keycloak/ /opt/keycloak/
+RUN mkdir -p /opt/keycloak/data/import
 COPY realm-export.json /opt/keycloak/data/import
 ENTRYPOINT ["/opt/keycloak/bin/kc.sh", "start", "--http-enabled=true", "--hostname-strict=false","--import-realm"]
