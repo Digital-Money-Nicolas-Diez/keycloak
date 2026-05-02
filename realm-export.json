@@ -878,7 +878,7 @@
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
-      "secret": "${env.USER_CLIENT_SECRET_VALUE}",
+      "secret": "gMuyVAKdAqi7rJ26tf0NsWbmY5xI08D6",
       "redirectUris": [
         "/*"
       ],
